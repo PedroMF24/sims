@@ -1,0 +1,14 @@
+   Detector element             z(midpoint)     halflength       volume-start volume-end   dx                x-start       x-end       dy                y-start       y-end         material
+Detector_0                  : z=   18.9200cm  dZ=  223.9200cm  [ -205.0000     242.8400] dx=   41.5125cm [  -74.6150       8.4100] dy=   39.6750cm [  -17.7000      61.6500]                dummy
+   volVeto_1                : z= -205.0000cm  dZ=    0.0000cm  [ -205.0000    -205.0000] dx=    0.0000cm [  -13.5000     -13.5000] dy=    0.0000cm [  -17.7000     -17.7000]                dummy
+   volTarget_1              : z=    0.0000cm  dZ=    0.0000cm  [    0.0000       0.0000] dx=    0.0000cm [    0.0000       0.0000] dy=    0.0000cm [    0.0000       0.0000]                dummy
+   volMuFilter_1            : z=  138.1500cm  dZ=  104.6900cm  [   33.4600     242.8400] dx=   41.5125cm [  -74.6150       8.4100] dy=   32.3150cm [   -2.9800      61.6500]                dummy
+      volFeTarget_1         : z=   48.2100cm  dZ=   14.7500cm  [   33.4600      62.9600] dx=   40.0000cm [  -73.0800       6.9200] dy=   30.0000cm [   -0.8400      59.1600]                 iron
+      volFeBlock_0          : z=   92.9600cm  dZ=   10.0000cm  [   82.9600     102.9600] dx=   40.0000cm [  -73.0800       6.9200] dy=   30.0000cm [   -0.8400      59.1600]                 iron
+      volFeBlock_1          : z=  115.4600cm  dZ=   10.0000cm  [  105.4600     125.4600] dx=   40.0000cm [  -73.0800       6.9200] dy=   30.0000cm [   -1.8400      58.1600]                 iron
+      volMuUpstreamDet_0_0  : z=  126.7200cm  dZ=    0.5000cm  [  126.2200     127.2200] dx=   41.2625cm [  -74.3650       8.1600] dy=   30.0450cm [   -2.0950      57.9950]                dummy
+      subUSBox_0            : z=  126.7200cm  dZ=    0.7500cm  [  125.9700     127.4700] dx=   41.5125cm [  -74.6150       8.4100] dy=   32.0100cm [   -2.7800      61.2400]            aluminium
+      volMuUpstreamDet_1_1  : z=  171.7200cm  dZ=    0.5000cm  [  171.2200     172.2200] dx=   41.2625cm [  -74.3650       8.1600] dy=   30.0450cm [   -2.2300      57.8600]                dummy
+      subUSBox_1            : z=  171.7200cm  dZ=    0.7500cm  [  170.9700     172.4700] dx=   41.5125cm [  -74.6150       8.4100] dy=   32.0100cm [   -2.9800      61.0400]            aluminium
+      subDSBox_2            : z=  241.3400cm  dZ=    1.5000cm  [  239.8400     242.8400] dx=   41.5125cm [  -74.6150       8.4100] dy=   32.0100cm [   -2.3700      61.6500]            aluminium
+      volMuDownstreamDet_0_2: z=  242.0900cm  dZ=    0.5000cm  [  241.5900     242.5900] dx=   30.2950cm [  -53.5900       7.0000] dy=   31.7625cm [   -2.1250      61.4000]                dummy

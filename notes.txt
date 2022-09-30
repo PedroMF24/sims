@@ -1,0 +1,17 @@
+python ../run_simSND.py --PG --pID 2212 -n 10 --Estart 15 --Eend 20
+
+python ../run_digiSND.py -g geofile_full.PG_2212-TGeant4.root -f sndLHC.PG_2212-TGeant4.root
+
+=================
+
+python ../sndsw/shipLHC/run_simSND.py --PG --pID 2212 --Estart 10.0 --Eend 11 --EVx -26.0 --EVy 34.0 --EVz 280.0 -n 10
+
+python ../sndsw/shipLHC/run_digiSND.py -g geofile_full.PG_2212-TGeant4.root -f sndLHC.PG_2212-TGeant4.root
+
+--H6 1
+
+// geometria
+
+python ../sndsw/shipLHC/run_simSND.py --PG --pID 211 --H6 1 -n 10
+
+python ../sndsw/macro/getGeoInformation.py -g geofile_full.PG_211-TGeant4.root -l 1
